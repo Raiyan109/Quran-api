@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bg-2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.main-heading{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-btn input{
+    font-size: 18px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+.input-btn button{
+    margin-left: 5px;
+    font-size: 25px;
+    color: black;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+}
+.input-btn button:hover{
+    background: #ff5722;
+}
+.surah{
+    color: #fff;
+}
